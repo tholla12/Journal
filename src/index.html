@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container card">
+    <h1>JOURNAL</h1>
+    <hr>
+    <div class="add-entry">
+      <form id="journalForm">
+        <label for="title">Title:</label>
+        <input class="col-md-7" type="text" id="title">
+
+        <br>
+        <br>
+        <label for="body">Body:</label>
+        <textarea placeholder="type here......" class="col-md-7" id="body"></textarea>
+        <br>
+        <br>
+        <button id="submit-entry">Add Entry</button>
+      </form>
+    </div>
+    <div class="entries">
+      <!-- Entry cards will be dynamically added here using JQuery -->
+    </div>
+  </div>
+</body>
+
+</html>
